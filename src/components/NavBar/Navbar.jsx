@@ -54,14 +54,15 @@ const NavBar = () => {
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <Link
+                  <NavLink
                     exact
+                    to="/schedule"
                     className="nav-link active"
                     aria-current="page"
                     activeClassName="active__nav__link"
                   >
                     Schedule
-                  </Link>
+                  </NavLink>
                 </li>
                 <li className="nav-item">
                   <Link

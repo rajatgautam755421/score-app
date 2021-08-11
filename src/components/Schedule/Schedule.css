@@ -1,0 +1,3 @@
+.schedule__h1::before {
+  content: "11 AM";
+}
