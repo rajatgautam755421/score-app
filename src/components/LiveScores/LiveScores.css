@@ -1,0 +1,19 @@
+.live__score__text__main {
+  margin: 20px 0px 40px 0px;
+}
+.scorecard {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.4s transform cubic-bezier(0.155, 1.105, 0.5, 2), 0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  cursor: pointer;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDW1SDc5fk-gos3oR4Y2RPqjrDMUbTggBR_A&usqp=CAU");
+  background-repeat: none;
+  background-size: cover;
+}
+.scorecard:hover {
+  transform: scale(1.09);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  object-fit: contain;
+}

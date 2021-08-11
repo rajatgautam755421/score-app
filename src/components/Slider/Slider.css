@@ -1,0 +1,23 @@
+.slider__text {
+  font-size: 20px;
+  position: relative;
+  top: -500px;
+  color: white;
+  right: 10px;
+  font-weight: 900;
+  margin-top: 40px;
+}
+.slider__images {
+  font-size: 20px;
+  position: relative;
+  top: -500px;
+  color: white;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.slider__button {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none;
+}
